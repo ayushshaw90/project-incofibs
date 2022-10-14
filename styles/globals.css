@@ -11,7 +11,7 @@ body{
 }
 footer{
     position: bottom;
-    height: 450px;
+    /* height: 450px; */
     left: 0%;
     right: 0%;
     top: 0px;
@@ -22,7 +22,7 @@ footer{
 }
 footer .card{
     position: bottom;
-width: 375px;
+width: 320px;
 height: 280px;
 left: 102px;
 top: 73px;
@@ -30,6 +30,14 @@ top: 73px;
 background: #181818;
 border-radius: 12px;
 }
+
+@media screen and (min-width: 400px){
+    footer .card{
+        width: 375px;
+    }
+}
+
+
 footer .base-box{
     position: relative;
 width: 100%;

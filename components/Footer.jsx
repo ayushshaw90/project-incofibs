@@ -3,13 +3,13 @@ function Footer() {
   return (
     <footer>
       <div className="container">
-        <div className="row">
-          <div className="flex space-x-40">
-            <div className="grid grid-cols-3 gap-14 place-items-center content-evenly 
-              pt-16 pr-16 pl-36">
-              <div className="card">
-                <h2 className="pt-6 pl-14">ABOUT US</h2>
-                <p className="pt-10 pl-14">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit iusto laborum soluta. Numquam non dignissimos quasi dolor autem, delectus voluptate ea optio quae architecto aspernatur voluptatibus adipisci tempora consectetur voluptatum!</p>
+        <div className="row w-fit mx-auto">
+          <div className="">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-14 place-items-center content-evenly 
+              pt-16 lg:pr-16 lg:pl-36">
+              <div className="card width-footer-card">
+                <h2 className="pt-6 pl-16">ABOUT US</h2>
+                <p className="pt-10 px-6 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit iusto laborum soluta. Numquam non dignissimos quasi dolor autem, delectus voluptate ea optio quae architecto aspernatur voluptatibus adipisci tempora consectetur voluptatum!</p>
                 <div >
                   <div >
                     <div className="grid grid-cols-5 gap-2 pl-14 pt-24 pr-14" >
@@ -33,8 +33,8 @@ function Footer() {
                 </div>
               </div>
               <div className="card">
-                <h2 className="pt-6 pl-14">ABOUT US</h2>
-                <p className="pt-10 pl-14">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit iusto laborum soluta. Numquam non dignissimos quasi dolor autem, delectus voluptate ea optio quae architecto aspernatur voluptatibus adipisci tempora consectetur voluptatum!</p>
+                <h2 className="pt-6 pl-16">ABOUT US</h2>
+                <p className="pt-10 px-6 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit iusto laborum soluta. Numquam non dignissimos quasi dolor autem, delectus voluptate ea optio quae architecto aspernatur voluptatibus adipisci tempora consectetur voluptatum!</p>
                 <div >
                   <div >
                     <div className="grid grid-cols-5 gap-2 pl-14 pt-24 pr-14">
