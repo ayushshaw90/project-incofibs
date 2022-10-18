@@ -91,10 +91,10 @@ function Footer() {
                     <img src="rectangle1.png"/>
                     </div>
                     <div className='border-r border-white w-full'>
-                    <img src="rectangle1.png"/>
+                    <img src="Rectangle1.png"/>
                     </div>
                     <div>
-                    <img src="rectangle2.png"/>
+                    <img src="Rectangle2.png"/>
                     </div>
                   </div>
                 </div>
